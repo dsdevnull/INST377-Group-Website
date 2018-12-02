@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="newsfeed.css">
+  <title>Music Share</title>
+
+
+</head>
+
+<body>
+<div class="dropdown">
+  <button onclick="dropMenu()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content"><br>
+    <a href="#">Newsfeed</a><br>
+    <a href="#">My Profile</a><br>
+    <a href="#">Search</a><br>
+  </div>
+</div>
+
+<div class="feed">
+
+  <img src="placeholder1.php" height="250" width="300"><br>
+  <img src="placeholder1.php" height="250" width="300"><br>
+  <img src="placeholder1.php" height="250" width="300"><br>
+  <img src="placeholder1.php" height="250" width="300"><br>
+  <img src="placeholder1.php" height="250" width="300"><br>
+
+</div>
+
+
+
+<script>
+function dropMenu() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
