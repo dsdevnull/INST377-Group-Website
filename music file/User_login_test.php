@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Team Peer Evaluation - Processor</title>
+	<title>Sign-Up</title>
 
 	<style>
 		div {
