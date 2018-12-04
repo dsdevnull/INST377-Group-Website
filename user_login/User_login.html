@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Login Information</title>
+	<style>
+		div {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	</style>
+
+<script>
+
+	function validateForm() {
+		validateFName();
+		validateLName();
+
+	}
+
+	function validateFName(){
+		var fName = document.getElementById('firstName').value;
+
+    if(/[^a-zA-Z0-9\-\/]/.test(fName) ) {
+			alert('First Name is not alphanumeric');
+			return false;
+    }else{
+			return true;
+		}
+	}
+
+	function validateLName(){
+		var lName = document.getElementById('lastName').value;
+
+    if(/[^a-zA-Z0-9\-\/]/.test(lName) ) {
+			alert('Last Name is not alphanumeric');
+			return false;
+    }else{
+			return true;
+		}
+	}
+
+</script>
+
+</head>
+<body>
+	<!-- Create Your Form Below -->
+	<h2>New User Log In</h2>
+	<p>Please enter the correct information below.</p>
+
+	<form name="userLogin" method="POST" action="./User_login_test.php" onsubmit="validateForm()">
+
+
+		First Name:
+		<br>
+		<input type="text" name="nameFirst" required id="firstName">
+		<br><br>
+		Last Name:
+		<br>
+		<input type="text" name="nameLast" required id="lastName">
+		<br><br>
+		Email Address:
+		<br>
+		<input type="text" name="email" required id="emailAddress">
+		<br><br>
+		Username:
+		<br>
+		<input type="text" name="username" required id="userName">
+		<br><br>
+		Password:
+		<br>
+		<input type="text" name="password" required id="passWord">
+		<br><br>
+		<input type="submit" value="submit">
+
+	</form>
+
+
+</body>
+</html>
