@@ -5,9 +5,11 @@ body {
 #loginpage {
   background-image: url("grey.jpg");
   background-repeat: no-repeat;
-  color: #4d004d;
+  color: black;
   margin-top: auto;
   margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   border: 2px solid #b300b3;
   padding: 25px;
   width: 300px;
