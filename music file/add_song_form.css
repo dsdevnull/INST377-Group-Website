@@ -1,0 +1,30 @@
+h2 {
+  font-size: 32px;
+}
+
+#musicnote {
+  width: 100px;
+  height: 100px;
+}
+
+#plus {
+  color: black;
+}
+
+body {
+  background-color: #4d004d;
+}
+
+input[type=text] {
+  background-color: grey;
+  border-radius: 20%;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+
+}
+
+#addsong {
+  color: grey;
+}

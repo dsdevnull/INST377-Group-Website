@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="add_song_form.css">
+	<title>Add a Song</title>
+	<style>
+		div {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	</style>
+
+<script>
+
+	function validateForm() {
+		validateGenre();
+
+	}
+
+
+	function validateGenre(){
+		var genre = document.getElementById('genreName').value;
+
+    if(/[^a-zA-Z0-9\-\/]/.test(genre) ) {
+			alert('Genre is not alphanumeric');
+			return false;
+    }else{
+			return true;
+		}
+	}
+
+</script>
+
+</head>
+<body>
+	<!-- Create Your Form Below -->
+<div id="addsong">
+	<h2>Adding a Song</h2>
+	<p>Please enter the correct information below.</p>
+	<img id="musicnote" src="music note.png"><p id="plus">+</p>
+
+
+	<form name="songAdd" method="POST" action="./add_song.php" onsubmit="validateForm()">
+
+		Name of Song:
+		<br>
+		<input type="text" name="song" required id="songName">
+		<br><br>
+		Name of Band:
+		<br>
+		<input type="text" name="band" required id="bandName">
+		<br><br>
+		Name of Album the song is from:
+		<br>
+		<input type="text" name="album" required id="albumName">
+		<br><br>
+		What is the Genre of the band:
+		<br>
+		<input type="text" name="genre" required id="genreName">
+		<br><br>
+		<div id="button"><input type="submit" value="Add Song to Profile +"></div>
+
+	</form>
+</div>
+
+</body>
+</html>
