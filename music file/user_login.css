@@ -2,6 +2,11 @@ h2 {
   font-size: 32px;
 }
 
+
+#adduser {
+  color: grey;
+}
+
 body {
   background-color: #4d004d;
 }
@@ -14,8 +19,4 @@ input[type=text] {
 input[type=text]:focus {
   background-color: lightblue;
 
-}
-
-#adduser {
-  color: grey;
 }
