@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="add_song_form.css">
 	<title>Add a Song</title>
 	<style>
 		div {
@@ -33,11 +34,13 @@
 </head>
 <body>
 	<!-- Create Your Form Below -->
+<div id="addsong">
 	<h2>Adding a Song</h2>
 	<p>Please enter the correct information below.</p>
+	<img id="musicnote" src="music note.png"><p id="plus">+</p>
+
 
 	<form name="songAdd" method="POST" action="./add_song.php" onsubmit="validateForm()">
-
 
 		Name of Song:
 		<br>
@@ -55,10 +58,10 @@
 		<br>
 		<input type="text" name="genre" required id="genreName">
 		<br><br>
-		<input type="submit" value="submit">
+		<div id="button"><input type="submit" value="Add Song to Profile +"></div>
 
 	</form>
-
+</div>
 
 </body>
 </html>
