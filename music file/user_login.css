@@ -1,0 +1,21 @@
+h2 {
+  font-size: 32px;
+}
+
+body {
+  background-color: #4d004d;
+}
+
+input[type=text] {
+  background-color: grey;
+  border-radius: 20%;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+
+}
+
+#adduser {
+  color: grey;
+}
