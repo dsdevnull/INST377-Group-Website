@@ -12,6 +12,7 @@ body{
 #addsong{
   color: grey;
   text-align: right;
+  padding-right: 60px;
 }
 
 #title{
@@ -25,4 +26,17 @@ body{
   color: grey;
   text-align: center;
   font-size: 28px;
+}
+
+#userInfo{
+  color: grey;
+  text-align: center;
+  font-size: 24px;
+}
+
+#general{
+  color: grey;
+  text-align: center;
+  font-size: 32px;
+  border-bottom-style: double;
 }
