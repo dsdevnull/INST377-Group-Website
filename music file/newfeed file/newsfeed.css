@@ -4,3 +4,39 @@
   margin-right: auto;
   width: 40%;
 }
+
+body{
+  background-color: #4d004d;
+}
+
+#addsong{
+  color: grey;
+  text-align: right;
+  padding-right: 60px;
+}
+
+#title{
+  color: grey;
+  text-align: center;
+  font-size: 52px;
+  font-style: italic;
+}
+
+#musicInfo{
+  color: grey;
+  text-align: center;
+  font-size: 28px;
+}
+
+#userInfo{
+  color: grey;
+  text-align: center;
+  font-size: 24px;
+}
+
+#general{
+  color: grey;
+  text-align: center;
+  font-size: 32px;
+  border-bottom-style: double;
+}
