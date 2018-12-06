@@ -24,8 +24,11 @@ h2{
 }
 
 #profilePic{
-  padding-left: 80px;
-  width: 10%;
+  padding-left: 180px;
+  padding-top: 50px;
+  width: 350px;
+  height: 420px;
+  float: left;
 }
 
 body{
@@ -37,9 +40,34 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  float: auto;
+  padding-left: 90px;
 }
 p{
   text-align: center;
   color: grey;
   font-size: 28px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }

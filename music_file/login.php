@@ -14,7 +14,7 @@
 <br>
 <?php
 
-	header('Location: newfeed file/newsfeed.html');
+	header('Location: newfeed_file/newsfeed.html');
 
   $username = $_POST["email"];
   $password = $_POST["password"];
