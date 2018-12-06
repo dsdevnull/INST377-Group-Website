@@ -1,0 +1,45 @@
+.fields {
+  margin-top: 20px;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h2{
+  text-align: center;
+  font-size: 42px;
+  font-style: italic;
+  color: grey;
+}
+
+#title{
+  text-align: center;
+  font-size: 38px;
+  font-style: italic;
+  color: grey;
+}
+
+#profilePic{
+  padding-left: 80px;
+  width: 10%;
+}
+
+body{
+  background-color: #4d004d;
+}
+
+#itsBritney{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+p{
+  text-align: center;
+  color: grey;
+  font-size: 28px;
+}

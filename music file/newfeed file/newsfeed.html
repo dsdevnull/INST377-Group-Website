@@ -10,15 +10,11 @@
 <body>
 
 <h2 id="title">Music Sharing</h2>
-<div class="dropdown">
-  <button onclick="dropMenu()" class="dropbtn">Menu</button>
-  <div id="myDropdown" class="dropdown-content"><br>
-    <a href="#">Newsfeed</a><br>
-    <a href="#">My Profile</a><br>
-    <a href="#">Search</a><br>
-  </div>
-</div>
-
+<ul>
+ <li><a href="newsfeed.html">News Feed</a></li>
+ <li><a href="../profile/profile.html">Profile</a></li>
+ <li><a href="#">Search</a></li>
+</ul>
 <div id="addsong">
   <p>Want to add a song? </p>
   <a href="../adding_song/add_song_form.html"><button>Click Here</button></a>
@@ -47,28 +43,6 @@
   <!--<img src="placeholder1.php" height="250" width="300"><br>-->
 
 </div>
-
-
-<script>
-function dropMenu() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
-
 
 
 
