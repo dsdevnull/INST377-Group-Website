@@ -4,3 +4,25 @@
   margin-right: auto;
   width: 40%;
 }
+
+body{
+  background-color: #4d004d;
+}
+
+#addsong{
+  color: grey;
+  text-align: right;
+}
+
+#title{
+  color: grey;
+  text-align: center;
+  font-size: 52px;
+  font-style: italic;
+}
+
+#musicInfo{
+  color: grey;
+  text-align: center;
+  font-size: 28px;
+}
