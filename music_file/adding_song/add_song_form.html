@@ -21,7 +21,7 @@
 	function validateGenre(){
 		var genre = document.getElementById('genreName').value;
 
-    if(/[^a-zA-Z0-9\-\/]/.test(genre) ) {
+    if(/[^a-zA-Z\-\/]/.test(genre) ) {
 			alert('Genre is not alphanumeric');
 			return false;
     }else{
@@ -33,6 +33,18 @@
 
 </head>
 <body>
+		<?php
+		$link = mysqli_connect("localhost", "monty", "password", "377project");
+
+       		 // Check connection
+        	if($link === false){
+        	die("ERROR: Could not connect. " . mysqli_connect_error());
+        	}
+		
+        	$sql = "select genre_type FROM genre;";
+        	$query = mysqli_query($link, $sql) or die(mysql_error());
+		?>
+
 	<!-- Create Your Form Below -->
 <div id="addsong">
 	<h2>Adding a Song</h2>
@@ -56,6 +68,7 @@
 		<br><br>
 		What is the Genre of the band:
 		<br>
+	
 		<input type="text" name="genre" required id="genreName">
 		<br><br>
 		<div id="button"><input type="submit" value="Add Song to Profile +"></div>
