@@ -5,7 +5,7 @@ This was created with HTML, CSS, Javascript, PHP, and MySQL. The files include m
 
 Sign-up/Create Account page: 
 
-This is an HTML/PHP form that posts the information to a PHP processor, checks to see if the user exists or not, and if they don’t exist already, adds them to the SQL User Database. It also uses Javascript validation to make sure what the user is inputting is valid. More validation will be needed in the future implementation(s) of the application. It also has CSS for design. The files include User_login.html & user_login.css & user_login_test.php
+This is an HTML/PHP form that posts the information to a PHP processor, checks to see if the user exists or not, and if they donâ€™t exist already, adds them to the SQL User Database. It also uses Javascript validation to make sure what the user is inputting is valid. More validation will be needed in the future implementation(s) of the application. It also has CSS for design. The files include User_login.html & user_login.css & user_login_test.php
 
 
 News feed page:
@@ -17,12 +17,12 @@ Currently, the news feed is just a placeholder, but future implementations will 
 Profile page:
 
 In the profile folder, there are two files: profile.html and profile.css
-Currently, the profile is also just a placeholder, but future implementations will require it to be a fully functional profile by actually posting new songs to each user’s different profile and saving those posts. 
+Currently, the profile is also just a placeholder, but future implementations will require it to be a fully functional profile by actually posting new songs to each userâ€™s different profile and saving those posts. 
 
 
 Add a song form:
 
-The file add_song_form.html is an HTML/PHP form that posts to add_song.php and then to our album SQL database. This way once a user posts a song to their profile, it will be saved so once the search functionality is working, users won’t have to upload a song that has already been uploaded.
+The file add_song_form.html is an HTML/PHP form that posts to add_song.php and then to our album SQL database. This way once a user posts a song to their profile, it will be saved so once the search functionality is working, users wonâ€™t have to upload a song that has already been uploaded.
 
 
 
@@ -38,9 +38,7 @@ We only used HTML, CSS, Javascript, PHP, and MySQL for the beginning implementat
 
 Server information:    
 
-We are hosting the website on an AWS EC2 server with a linux base.
-Link: http://ec2-52-91-31-133.compute-1.amazonaws.com/music.html
-
+We are hosting the website on an instance of AWS EC2 server with a linux base via the UMDâ€™s iSchoolâ€™s VCL.
 
 Database structure:
 
